@@ -9,6 +9,7 @@
 
     "eqeqeq": true,
     "latedef": "nofunc",
+    "laxbreak": true,
     "undef": true,
     "unused": "vars",
     "eqnull": true
