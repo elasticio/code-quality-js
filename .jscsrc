@@ -1,4 +1,5 @@
 {
+    "esnext": true,
     "disallowAnonymousFunctions": true,
     "disallowEmptyBlocks": true,
     "disallowKeywordsOnNewLine": ["else"],
