@@ -8,9 +8,10 @@
     "esnext": true,
 
     "eqeqeq": true,
+    "eqnull": true,
     "latedef": "nofunc",
     "laxbreak": true,
+    "newcap": false,
     "undef": true,
-    "unused": "vars",
-    "eqnull": true
+    "unused": "vars"
 }
