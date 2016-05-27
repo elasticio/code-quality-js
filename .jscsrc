@@ -20,7 +20,7 @@
     },
     "disallowSpacesInsideParentheses": true,
     "disallowTrailingComma": true,
-    "disallowTrailingWhitespace": true,
+    "disallowTrailingWhitespace": "ignoreEmptyLines",
     "disallowYodaConditions": true,
     "maximumLineLength": 120,
     "requireBlocksOnNewline": true,
@@ -88,5 +88,9 @@
     "validateNewlineAfterArrayElements": {
         "maximum": 5
     },
-    "validateParameterSeparator": ", "
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": {
+        "mark": "'",
+        "escape": true
+    }
 }
