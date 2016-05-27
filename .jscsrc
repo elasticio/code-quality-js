@@ -20,7 +20,7 @@
     },
     "disallowSpacesInsideParentheses": true,
     "disallowTrailingComma": true,
-    "disallowTrailingWhitespace": "ignoreEmptyLines",
+    "disallowTrailingWhitespace": true,
     "disallowYodaConditions": true,
     "maximumLineLength": 120,
     "requireBlocksOnNewline": true,
