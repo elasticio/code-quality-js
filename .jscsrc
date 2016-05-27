@@ -88,5 +88,9 @@
     "validateNewlineAfterArrayElements": {
         "maximum": 5
     },
-    "validateParameterSeparator": ", "
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": {
+        "mark": "'",
+        "escape": true
+    }
 }
