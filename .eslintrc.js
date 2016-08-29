@@ -88,11 +88,13 @@ module.exports = {
             WARN,
             ALWAYS
         ],
-        'object-curly-newline': [
-            WARN,
+        'object-curly-newline':  [
+            ERROR,
             {
-                minProperties: 5,
-                multiline: true
+                ObjectExpression: 'always',
+                ObjectPattern: { 
+                    "minProperties": 5
+                }
             }
         ],
         'template-curly-spacing': ERROR,
