@@ -97,6 +97,7 @@ module.exports = {
                 }
             }
         ],
+        'object-property-newline': ERROR,
         'template-curly-spacing': ERROR,
         'dot-notation': ERROR,
         'dot-location': [
