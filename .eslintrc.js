@@ -91,7 +91,9 @@ module.exports = {
         'object-curly-newline':  [
             ERROR,
             {
-                ObjectExpression: ALWAYS,
+                ObjectExpression: {
+                    minProperties: 1
+                },
                 ObjectPattern: { 
                     minProperties: 5
                 }
