@@ -81,7 +81,12 @@ module.exports = {
                 properties: 'never'
             }
         ],
-        'new-cap': WARN,
+        'new-cap': [
+            WARN,
+            {
+                capIsNewExceptions: ['Q']
+            }
+        ],
         'comma-style': ERROR,
         'curly': ERROR,
         'object-curly-spacing': [
